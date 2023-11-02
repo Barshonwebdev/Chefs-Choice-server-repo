@@ -1,6 +1,7 @@
 
    [
-    { "id":1,
+    {
+      "id": 1,
       "chef_picture": "chef1.jpg",
       "chef_name": "Hiroshi Tanaka",
       "years_of_experience": 12,
@@ -9,13 +10,17 @@
       "short_description": "Known for his innovative fusion dishes combining traditional Japanese flavors with modern techniques.",
       "recipes": [
         {
+          "id": 1,
           "recipe_name": "Sushi Delight",
+          "recipe_picture": "sushi.jpg",
           "ingredients": ["rice", "fish", "seaweed", "vinegar", "soy sauce"],
           "cooking_method": "Roll the sushi using a bamboo mat and slice into bite-size pieces.",
           "rating": 5
         },
         {
+          "id": 2,
           "recipe_name": "Teriyaki Chicken",
+          "recipe_picture": "teriyaki_chicken.jpg",
           "ingredients": [
             "chicken",
             "soy sauce",
@@ -27,7 +32,9 @@
           "rating": 4
         },
         {
+          "id": 3,
           "recipe_name": "Miso Soup",
+          "recipe_picture": "miso_soup.jpg",
           "ingredients": [
             "dashi",
             "miso paste",
@@ -50,13 +57,17 @@
       "short_description": "Specializes in traditional Kaiseki cuisine, emphasizing seasonal and local ingredients.",
       "recipes": [
         {
+          "id": 1,
           "recipe_name": "Tempura Feast",
+          "recipe_picture": "tempura.jpg",
           "ingredients": ["shrimp", "vegetables", "flour", "egg", "oil"],
           "cooking_method": "Dip ingredients in batter, then deep fry until crispy and golden.",
           "rating": 4
         },
         {
+          "id": 2,
           "recipe_name": "Soba Noodle Soup",
+          "recipe_picture": "soba_noodle_soup.jpg",
           "ingredients": [
             "soba noodles",
             "broth",
@@ -68,7 +79,9 @@
           "rating": 5
         },
         {
+          "id": 3,
           "recipe_name": "Chirashi Bowl",
+          "recipe_picture": "chirashi_bowl.jpg",
           "ingredients": [
             "sushi rice",
             "sashimi",
@@ -91,7 +104,9 @@
       "short_description": "Master of traditional Kyoto-style kaiseki with a focus on elegant presentation and delicate flavors.",
       "recipes": [
         {
+          "id": 1,
           "recipe_name": "Kaiseki Delight",
+          "recipe_picture": "kaiseki_delight.jpg",
           "ingredients": [
             "kelp",
             "bonito flakes",
@@ -103,7 +118,9 @@
           "rating": 5
         },
         {
+          "id": 2,
           "recipe_name": "Matcha Dessert",
+          "recipe_picture": "matcha_dessert.jpg",
           "ingredients": [
             "matcha powder",
             "red bean paste",
@@ -115,7 +132,9 @@
           "rating": 4
         },
         {
+          "id": 3,
           "recipe_name": "Sake-Steamed Fish",
+          "recipe_picture": "sake_steamed_fish.jpg",
           "ingredients": ["fish", "sake", "soy sauce", "ginger", "scallions"],
           "cooking_method": "Marinate fish in sake and soy sauce, steam with ginger and scallions until tender.",
           "rating": 3
@@ -132,7 +151,9 @@
       "short_description": "Expert in traditional street food, offering authentic flavors reminiscent of old Tokyo.",
       "recipes": [
         {
+          "id": 1,
           "recipe_name": "Okonomiyaki",
+          "recipe_picture": "okonomiyaki.jpg",
           "ingredients": [
             "cabbage",
             "flour",
@@ -144,7 +165,9 @@
           "rating": 4
         },
         {
+          "id": 2,
           "recipe_name": "Yakitori Skewers",
+          "recipe_picture": "yakitori_skewers.jpg",
           "ingredients": [
             "chicken",
             "scallions",
@@ -156,7 +179,9 @@
           "rating": 5
         },
         {
+          "id": 3,
           "recipe_name": "Takoyaki",
+          "recipe_picture": "takoyaki.jpg",
           "ingredients": [
             "octopus",
             "flour",
@@ -179,13 +204,17 @@
       "short_description": "Known for her creative desserts combining traditional Japanese ingredients with modern pastry techniques.",
       "recipes": [
         {
+          "id": 1,
           "recipe_name": "Matcha Roll Cake",
+          "recipe_picture": "matcha_roll_cake.jpg",
           "ingredients": ["matcha powder", "flour", "eggs", "sugar", "cream"],
           "cooking_method": "Whisk ingredients into a batter, bake, then roll with cream filling and sprinkle with matcha powder.",
           "rating": 5
         },
         {
+          "id": 2,
           "recipe_name": "Warabi Mochi",
+          "recipe_picture": "warabi_mochi.jpg",
           "ingredients": [
             "warabi flour",
             "sugar",
@@ -197,7 +226,9 @@
           "rating": 4
         },
         {
+          "id": 3,
           "recipe_name": "Yuzu Cheesecake",
+          "recipe_picture": "yuzu_cheesecake.jpg",
           "ingredients": [
             "yuzu juice",
             "cream cheese",
@@ -220,13 +251,17 @@
       "short_description": "A visionary in modern Japanese cuisine, known for his artistic presentation and use of unconventional ingredients.",
       "recipes": [
         {
+          "id": 1,
           "recipe_name": "Wagyu Steak",
+          "recipe_picture": "wagyu_steak.jpg",
           "ingredients": ["wagyu beef", "salt", "pepper", "butter", "garlic"],
           "cooking_method": "Season the steak, sear on high heat, then finish in the oven with butter and garlic.",
           "rating": 5
         },
         {
+          "id": 2,
           "recipe_name": "Uni Pasta",
+          "recipe_picture": "uni_pasta.jpg",
           "ingredients": [
             "spaghetti",
             "sea urchin",
@@ -238,7 +273,9 @@
           "rating": 4
         },
         {
+          "id": 3,
           "recipe_name": "Molecular Sashimi",
+          "recipe_picture": "molecular_sashimi.jpg",
           "ingredients": [
             "assorted fish",
             "soy sauce caviar",
@@ -252,3 +289,4 @@
       ]
     }
   ]
+
