@@ -1,292 +1,293 @@
 
    [
-    {
-      "id": 1,
-      "chef_picture": "chef1.jpg",
-      "chef_name": "Hiroshi Tanaka",
-      "years_of_experience": 12,
-      "number_of_recipes": 87,
-      "likes": 1450,
-      "short_description": "Known for his innovative fusion dishes combining traditional Japanese flavors with modern techniques.",
-      "recipes": [
-        {
-          "id": 1,
-          "recipe_name": "Sushi Delight",
-          "recipe_picture": "sushi.jpg",
-          "ingredients": ["rice", "fish", "seaweed", "vinegar", "soy sauce"],
-          "cooking_method": "Roll the sushi using a bamboo mat and slice into bite-size pieces.",
-          "rating": 5
-        },
-        {
-          "id": 2,
-          "recipe_name": "Teriyaki Chicken",
-          "recipe_picture": "teriyaki_chicken.jpg",
-          "ingredients": [
-            "chicken",
-            "soy sauce",
-            "mirin",
-            "sugar",
-            "sesame seeds"
-          ],
-          "cooking_method": "Marinate the chicken in the teriyaki sauce, then grill or broil until cooked.",
-          "rating": 4
-        },
-        {
-          "id": 3,
-          "recipe_name": "Miso Soup",
-          "recipe_picture": "miso_soup.jpg",
-          "ingredients": [
-            "dashi",
-            "miso paste",
-            "tofu",
-            "seaweed",
-            "green onions"
-          ],
-          "cooking_method": "Boil the dashi, add the miso paste, tofu, and seaweed, and garnish with green onions.",
-          "rating": 3
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "chef_picture": "chef2.jpg",
-      "chef_name": "Akiko Nakamura",
-      "years_of_experience": 8,
-      "number_of_recipes": 63,
-      "likes": 980,
-      "short_description": "Specializes in traditional Kaiseki cuisine, emphasizing seasonal and local ingredients.",
-      "recipes": [
-        {
-          "id": 1,
-          "recipe_name": "Tempura Feast",
-          "recipe_picture": "tempura.jpg",
-          "ingredients": ["shrimp", "vegetables", "flour", "egg", "oil"],
-          "cooking_method": "Dip ingredients in batter, then deep fry until crispy and golden.",
-          "rating": 4
-        },
-        {
-          "id": 2,
-          "recipe_name": "Soba Noodle Soup",
-          "recipe_picture": "soba_noodle_soup.jpg",
-          "ingredients": [
-            "soba noodles",
-            "broth",
-            "fish cake",
-            "green onions",
-            "tempura flakes"
-          ],
-          "cooking_method": "Cook soba noodles and serve in hot broth topped with fish cake, green onions, and tempura flakes.",
-          "rating": 5
-        },
-        {
-          "id": 3,
-          "recipe_name": "Chirashi Bowl",
-          "recipe_picture": "chirashi_bowl.jpg",
-          "ingredients": [
-            "sushi rice",
-            "sashimi",
-            "vegetables",
-            "pickles",
-            "sesame seeds"
-          ],
-          "cooking_method": "Arrange sushi rice in a bowl and top with assorted sashimi, vegetables, and pickles. Sprinkle with sesame seeds.",
-          "rating": 3
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "chef_picture": "chef3.jpg",
-      "chef_name": "Yuki Sato",
-      "years_of_experience": 15,
-      "number_of_recipes": 105,
-      "likes": 2050,
-      "short_description": "Master of traditional Kyoto-style kaiseki with a focus on elegant presentation and delicate flavors.",
-      "recipes": [
-        {
-          "id": 1,
-          "recipe_name": "Kaiseki Delight",
-          "recipe_picture": "kaiseki_delight.jpg",
-          "ingredients": [
-            "kelp",
-            "bonito flakes",
-            "shrimp",
-            "mushrooms",
-            "bamboo shoots"
-          ],
-          "cooking_method": "Prepare dashi, then cook ingredients separately and serve in small portions with attention to detail.",
-          "rating": 5
-        },
-        {
-          "id": 2,
-          "recipe_name": "Matcha Dessert",
-          "recipe_picture": "matcha_dessert.jpg",
-          "ingredients": [
-            "matcha powder",
-            "red bean paste",
-            "sugar",
-            "flour",
-            "egg"
-          ],
-          "cooking_method": "Mix matcha powder with ingredients, then bake or steam to create traditional Japanese sweets.",
-          "rating": 4
-        },
-        {
-          "id": 3,
-          "recipe_name": "Sake-Steamed Fish",
-          "recipe_picture": "sake_steamed_fish.jpg",
-          "ingredients": ["fish", "sake", "soy sauce", "ginger", "scallions"],
-          "cooking_method": "Marinate fish in sake and soy sauce, steam with ginger and scallions until tender.",
-          "rating": 3
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "chef_picture": "chef4.jpg",
-      "chef_name": "Ryo Suzuki",
-      "years_of_experience": 10,
-      "number_of_recipes": 72,
-      "likes": 1200,
-      "short_description": "Expert in traditional street food, offering authentic flavors reminiscent of old Tokyo.",
-      "recipes": [
-        {
-          "id": 1,
-          "recipe_name": "Okonomiyaki",
-          "recipe_picture": "okonomiyaki.jpg",
-          "ingredients": [
-            "cabbage",
-            "flour",
-            "eggs",
-            "pork belly",
-            "bonito flakes"
-          ],
-          "cooking_method": "Mix ingredients into a batter, then grill into a savory pancake and top with bonito flakes.",
-          "rating": 4
-        },
-        {
-          "id": 2,
-          "recipe_name": "Yakitori Skewers",
-          "recipe_picture": "yakitori_skewers.jpg",
-          "ingredients": [
-            "chicken",
-            "scallions",
-            "teriyaki sauce",
-            "sesame seeds",
-            "bamboo skewers"
-          ],
-          "cooking_method": "Skewer chicken and scallions, then grill and baste with teriyaki sauce. Serve sprinkled with sesame seeds.",
-          "rating": 5
-        },
-        {
-          "id": 3,
-          "recipe_name": "Takoyaki",
-          "recipe_picture": "takoyaki.jpg",
-          "ingredients": [
-            "octopus",
-            "flour",
-            "ginger",
-            "green onions",
-            "pickled ginger"
-          ],
-          "cooking_method": "Fill the takoyaki pan with batter and octopus, cook until golden, and garnish with ginger and green onions.",
-          "rating": 3
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "chef_picture": "chef5.jpg",
-      "chef_name": "Sakura Aoki",
-      "years_of_experience": 6,
-      "number_of_recipes": 55,
-      "likes": 800,
-      "short_description": "Known for her creative desserts combining traditional Japanese ingredients with modern pastry techniques.",
-      "recipes": [
-        {
-          "id": 1,
-          "recipe_name": "Matcha Roll Cake",
-          "recipe_picture": "matcha_roll_cake.jpg",
-          "ingredients": ["matcha powder", "flour", "eggs", "sugar", "cream"],
-          "cooking_method": "Whisk ingredients into a batter, bake, then roll with cream filling and sprinkle with matcha powder.",
-          "rating": 5
-        },
-        {
-          "id": 2,
-          "recipe_name": "Warabi Mochi",
-          "recipe_picture": "warabi_mochi.jpg",
-          "ingredients": [
-            "warabi flour",
-            "sugar",
-            "kinako powder",
-            "water",
-            "red bean paste"
-          ],
-          "cooking_method": "Mix warabi flour with water and sugar, then coat with kinako powder and serve with red bean paste.",
-          "rating": 4
-        },
-        {
-          "id": 3,
-          "recipe_name": "Yuzu Cheesecake",
-          "recipe_picture": "yuzu_cheesecake.jpg",
-          "ingredients": [
-            "yuzu juice",
-            "cream cheese",
-            "eggs",
-            "sugar",
-            "butter"
-          ],
-          "cooking_method": "Blend ingredients, bake until set, then chill and garnish with yuzu zest.",
-          "rating": 3
-        }
-      ]
-    },
-    {
-      "id": 6,
-      "chef_picture": "chef6.jpg",
-      "chef_name": "Takashi Mori",
-      "years_of_experience": 18,
-      "number_of_recipes": 132,
-      "likes": 2300,
-      "short_description": "A visionary in modern Japanese cuisine, known for his artistic presentation and use of unconventional ingredients.",
-      "recipes": [
-        {
-          "id": 1,
-          "recipe_name": "Wagyu Steak",
-          "recipe_picture": "wagyu_steak.jpg",
-          "ingredients": ["wagyu beef", "salt", "pepper", "butter", "garlic"],
-          "cooking_method": "Season the steak, sear on high heat, then finish in the oven with butter and garlic.",
-          "rating": 5
-        },
-        {
-          "id": 2,
-          "recipe_name": "Uni Pasta",
-          "recipe_picture": "uni_pasta.jpg",
-          "ingredients": [
-            "spaghetti",
-            "sea urchin",
-            "cream",
-            "butter",
-            "chives"
-          ],
-          "cooking_method": "Cook spaghetti, then toss with sea urchin, cream, and butter. Garnish with chives.",
-          "rating": 4
-        },
-        {
-          "id": 3,
-          "recipe_name": "Molecular Sashimi",
-          "recipe_picture": "molecular_sashimi.jpg",
-          "ingredients": [
-            "assorted fish",
-            "soy sauce caviar",
-            "wasabi foam",
-            "edible flowers",
-            "microgreens"
-          ],
-          "cooking_method": "Using molecular gastronomy techniques, create unique sashimi presentation with modern elements.",
-          "rating": 3
-        }
-      ]
-    }
-  ]
+     {
+       "id": 1,
+       "chef_picture": "https://images.unsplash.com/photo-1502364271109-0a9a75a2a9df?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+       "chef_name": "Hiroshi Tanaka",
+       "years_of_experience": 12,
+       "number_of_recipes": 87,
+       "likes": 1450,
+       "short_description": "Known for his innovative fusion dishes combining traditional Japanese flavors with modern techniques.",
+       "recipes": [
+         {
+           "id": 1,
+           "recipe_name": "Sushi Delight",
+           "recipe_picture": "sushi.jpg",
+           "ingredients": ["rice", "fish", "seaweed", "vinegar", "soy sauce"],
+           "cooking_method": "Roll the sushi using a bamboo mat and slice into bite-size pieces.",
+           "rating": 5
+         },
+         {
+           "id": 2,
+           "recipe_name": "Teriyaki Chicken",
+           "recipe_picture": "teriyaki_chicken.jpg",
+           "ingredients": [
+             "chicken",
+             "soy sauce",
+             "mirin",
+             "sugar",
+             "sesame seeds"
+           ],
+           "cooking_method": "Marinate the chicken in the teriyaki sauce, then grill or broil until cooked.",
+           "rating": 4
+         },
+         {
+           "id": 3,
+           "recipe_name": "Miso Soup",
+           "recipe_picture": "miso_soup.jpg",
+           "ingredients": [
+             "dashi",
+             "miso paste",
+             "tofu",
+             "seaweed",
+             "green onions"
+           ],
+           "cooking_method": "Boil the dashi, add the miso paste, tofu, and seaweed, and garnish with green onions.",
+           "rating": 3
+         }
+       ]
+     },
+     {
+       "id": 2,
+       "chef_picture": "https://images.unsplash.com/photo-1565330905957-95cab07c3e0d?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+       "chef_name": "Akiko Nakamura",
+       "years_of_experience": 6,
+       "number_of_recipes": 63,
+       "likes": 980,
+       "short_description": "Specializes in traditional Kaiseki cuisine, emphasizing seasonal and local ingredients.",
+       "recipes": [
+         {
+           "id": 1,
+           "recipe_name": "Tempura Feast",
+           "recipe_picture": "tempura.jpg",
+           "ingredients": ["shrimp", "vegetables", "flour", "egg", "oil"],
+           "cooking_method": "Dip ingredients in batter, then deep fry until crispy and golden.",
+           "rating": 4
+         },
+         {
+           "id": 2,
+           "recipe_name": "Soba Noodle Soup",
+           "recipe_picture": "soba_noodle_soup.jpg",
+           "ingredients": [
+             "soba noodles",
+             "broth",
+             "fish cake",
+             "green onions",
+             "tempura flakes"
+           ],
+           "cooking_method": "Cook soba noodles and serve in hot broth topped with fish cake, green onions, and tempura flakes.",
+           "rating": 5
+         },
+         {
+           "id": 3,
+           "recipe_name": "Chirashi Bowl",
+           "recipe_picture": "chirashi_bowl.jpg",
+           "ingredients": [
+             "sushi rice",
+             "sashimi",
+             "vegetables",
+             "pickles",
+             "sesame seeds"
+           ],
+           "cooking_method": "Arrange sushi rice and top with assorted sashimi, vegetables, and pickles. Sprinkle with sesame seeds.",
+           "rating": 3
+         }
+       ]
+     },
+     {
+       "id": 3,
+       "chef_picture": "https://images.unsplash.com/photo-1475823678248-624fc6f85785?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+       "chef_name": "Yuki Sato",
+       "years_of_experience": 4,
+       "number_of_recipes": 105,
+       "likes": 2050,
+       "short_description": "Master of traditional Kyoto-style kaiseki with a focus on elegant presentation and delicate flavors.",
+       "recipes": [
+         {
+           "id": 1,
+           "recipe_name": "Kaiseki Delight",
+           "recipe_picture": "kaiseki_delight.jpg",
+           "ingredients": [
+             "kelp",
+             "bonito flakes",
+             "shrimp",
+             "mushrooms",
+             "bamboo shoots"
+           ],
+           "cooking_method": "Prepare dashi, then cook ingredients separately and serve in small portions with attention to detail.",
+           "rating": 5
+         },
+         {
+           "id": 2,
+           "recipe_name": "Matcha Dessert",
+           "recipe_picture": "matcha_dessert.jpg",
+           "ingredients": [
+             "matcha powder",
+             "red bean paste",
+             "sugar",
+             "flour",
+             "egg"
+           ],
+           "cooking_method": "Mix matcha powder with ingredients, then bake or steam to create traditional Japanese sweets.",
+           "rating": 4
+         },
+         {
+           "id": 3,
+           "recipe_name": "Sake-Steamed Fish",
+           "recipe_picture": "sake_steamed_fish.jpg",
+           "ingredients": ["fish", "sake", "soy sauce", "ginger", "scallions"],
+           "cooking_method": "Marinate fish in sake and soy sauce, steam with ginger and scallions until tender.",
+           "rating": 3
+         }
+       ]
+     },
+     {
+       "id": 4,
+       "chef_picture": "https://images.unsplash.com/photo-1514355315815-2b64b0216b14?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+       "chef_name": "Sakura Aoki",
+       "years_of_experience": 6,
+       "number_of_recipes": 55,
+       "likes": 800,
+       "short_description": "Known for her creative desserts combining traditional Japanese ingredients with modern pastry techniques.",
+       "recipes": [
+         {
+           "id": 1,
+           "recipe_name": "Matcha Roll Cake",
+           "recipe_picture": "matcha_roll_cake.jpg",
+           "ingredients": ["matcha powder", "flour", "eggs", "sugar", "cream"],
+           "cooking_method": "Whisk ingredients into a batter, bake, then roll with cream filling and sprinkle with matcha powder.",
+           "rating": 5
+         },
+         {
+           "id": 2,
+           "recipe_name": "Warabi Mochi",
+           "recipe_picture": "warabi_mochi.jpg",
+           "ingredients": [
+             "warabi flour",
+             "sugar",
+             "kinako powder",
+             "water",
+             "red bean paste"
+           ],
+           "cooking_method": "Mix warabi flour with water and sugar, then coat with kinako powder and serve with red bean paste.",
+           "rating": 4
+         },
+         {
+           "id": 3,
+           "recipe_name": "Yuzu Cheesecake",
+           "recipe_picture": "yuzu_cheesecake.jpg",
+           "ingredients": [
+             "yuzu juice",
+             "cream cheese",
+             "eggs",
+             "sugar",
+             "butter"
+           ],
+           "cooking_method": "Blend ingredients, bake until set, then chill and garnish with yuzu zest.",
+           "rating": 3
+         }
+       ]
+     },
+     {
+       "id": 5,
+       "chef_picture": "https://images.unsplash.com/photo-1603614916716-3bc2462b007a?auto=format&fit=crop&q=80&w=1467&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+       "chef_name": "Takashi Mori",
+       "years_of_experience": 18,
+       "number_of_recipes": 132,
+       "likes": 2300,
+       "short_description": "A visionary in modern Japanese cuisine, known for his artistic presentation and use of unconventional ingredients.",
+       "recipes": [
+         {
+           "id": 1,
+           "recipe_name": "Wagyu Steak",
+           "recipe_picture": "wagyu_steak.jpg",
+           "ingredients": ["wagyu beef", "salt", "pepper", "butter", "garlic"],
+           "cooking_method": "Season the steak, sear on high heat, then finish in the oven with butter and garlic.",
+           "rating": 5
+         },
+         {
+           "id": 2,
+           "recipe_name": "Uni Pasta",
+           "recipe_picture": "uni_pasta.jpg",
+           "ingredients": [
+             "spaghetti",
+             "sea urchin",
+             "cream",
+             "butter",
+             "chives"
+           ],
+           "cooking_method": "Cook spaghetti, then toss with sea urchin, cream, and butter. Garnish with chives.",
+           "rating": 4
+         },
+         {
+           "id": 3,
+           "recipe_name": "Molecular Sashimi",
+           "recipe_picture": "molecular_sashimi.jpg",
+           "ingredients": [
+             "assorted fish",
+             "soy sauce caviar",
+             "wasabi foam",
+             "edible flowers",
+             "microgreens"
+           ],
+           "cooking_method": "Using molecular gastronomy techniques, create unique sashimi presentation with modern elements.",
+           "rating": 3
+         }
+       ]
+     },
+
+     {
+       "id": 6,
+       "chef_picture": "https://images.unsplash.com/photo-1605501218769-dd46efd48417?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+       "chef_name": "Ryo Suzuki",
+       "years_of_experience": 3,
+       "number_of_recipes": 72,
+       "likes": 1200,
+       "short_description": "Expert in traditional street food, offering authentic flavors reminiscent of old Tokyo.",
+       "recipes": [
+         {
+           "id": 1,
+           "recipe_name": "Okonomiyaki",
+           "recipe_picture": "okonomiyaki.jpg",
+           "ingredients": [
+             "cabbage",
+             "flour",
+             "eggs",
+             "pork belly",
+             "bonito flakes"
+           ],
+           "cooking_method": "Mix ingredients into a batter, then grill into a savory pancake. Then top it with bonito flakes. Mix additional condiments for further taste",
+           "rating": 4
+         },
+         {
+           "id": 2,
+           "recipe_name": "Yakitori Skewers",
+           "recipe_picture": "yakitori_skewers.jpg",
+           "ingredients": [
+             "chicken",
+             "scallions",
+             "teriyaki sauce",
+             "sesame seeds",
+             "bamboo skewers"
+           ],
+           "cooking_method": "Skewer chicken and scallions, then grill and baste with teriyaki sauce. Serve sprinkled with sesame seeds.",
+           "rating": 5
+         },
+         {
+           "id": 3,
+           "recipe_name": "Takoyaki",
+           "recipe_picture": "takoyaki.jpg",
+           "ingredients": [
+             "octopus",
+             "flour",
+             "ginger",
+             "green onions",
+             "pickled ginger"
+           ],
+           "cooking_method": "Fill the takoyaki pan with batter and octopus, cook until golden, and garnish with ginger and green onions.",
+           "rating": 3
+         }
+       ]
+     }
+   ]
 
