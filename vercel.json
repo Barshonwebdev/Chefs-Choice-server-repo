@@ -3,7 +3,7 @@
   "builds": [
     {
       "src": "index.js",
-      "use": "@now/node"
+      "use": "@vercel/node"
     }
   ],
   "routes": [
@@ -11,11 +11,9 @@
       "src": "/(.*)",
       "dest": "index.js",
       "methods": ["GET", "POST", "PATCH", "DELETE", "OPTIONS"],
-      "headers": 
-        {
+      "headers": {
         "Access-Control-Allow-Origin": "*"
-        }
-    
+      }
     }
   ]
   

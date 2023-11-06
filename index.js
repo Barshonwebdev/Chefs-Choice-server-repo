@@ -10,7 +10,7 @@ app.get('/', (req,res)=>{
     res.send (chefs);
 })
 
-app.get('/chefs/:id', (req,res)=>{
+app.get('/:id', (req,res)=>{
     const id = parseInt(req.params.id);
     const selectedChef=chefs.find(c=>c.id===id);
     res.send(selectedChef);
