@@ -1,6 +1,7 @@
 const express= require('express');
 const app= express();
 const cors = require("cors");
+require("dotenv").config();
 const port=process.env.PORT || 5000;
 
 
@@ -15,7 +16,7 @@ app.get('/chefs', (req,res)=>{
     res.send (chefs);
 })
 
-app.get('/:id', (req,res)=>{
+app.get('/chefs/:id', (req,res)=>{
     const id = parseInt(req.params.id);
     const selectedChef=chefs.find(c=>c.id===id);
     res.send(selectedChef);
