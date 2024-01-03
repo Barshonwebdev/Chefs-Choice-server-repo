@@ -2,14 +2,15 @@ const express= require('express');
 const cors = require('cors');
 const app= express();
 require("dotenv").config();
-app.use(cors({
-    origin:"*",
-}));
-const port=process.env.PORT || 5000;
+app.use(
+  cors()
+);
+const port=process.env.port|| 6000;
 
 
 
 const chefs= require('./data/chefData.json')
+
 
 app.get('/',(req,res)=>{
        
