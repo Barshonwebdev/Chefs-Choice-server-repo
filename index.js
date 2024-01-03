@@ -5,7 +5,7 @@ require("dotenv").config();
 app.use(
   cors()
 );
-const port=process.env.port|| 6000;
+const port=process.env.port|| 5000;
 
 
 
